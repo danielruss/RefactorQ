@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <!-- load bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min.js"></script>
+    <link rel="stylesheet" href="mycss.css" />
+    <script src="q2.js"></script>
+  </head>
+  <body class="container m-3">
+    <form id="urlform" action="javascript:f()">
+      <div class="form-group">
+        <label for="url" class="col-sm-4">questionnaire url </label>
+        <input type="text" id="url" class="form-control col-sm-8" value="q2.txt" />
+      </div>
+      <button type="submit">submit</button>
+    </form>
+    <div class="container">
+      <div class="row">
+        <div id="raw" class="col-6"></div>
+        <div id="convert" class="col-6"></div>
+      </div>
+    </div>
+  </body>
+</html>

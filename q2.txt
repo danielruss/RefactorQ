@@ -1,0 +1,14 @@
+[Q0] How many names do you want |__|__|
+
+[Q1] What is your name? |__|NAME|
+
+[Q2] What letters do you like?
+
+[a] A 
+[b] B 
+[c] C
+
+[Q3] Do you like Yes/No questions?
+(1:YESLABEL) Yes
+(2) No
+
